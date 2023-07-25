@@ -26,5 +26,6 @@ for location_of_pass_char in range(0,len_of_password):
         rand_number_index = random.randint(0, len(numbers)-1)
         password.append(numbers[rand_number_index])
 
+# random.shuffle(password) ---> to mix characters position
 final_password = ''.join(str(x) for x in password)
 print(f"Here is your password: {final_password}")
