@@ -40,7 +40,9 @@ while (is_auction_done is not True):
 #Clearing console provides to make blind the auction
     clear()
 '''
-In a blind bid, if two people give the same price, the winner is usually the person who placed the bid first 1. This is because the earlier bid is considered to have priority over the later one. If two bidders place the same bid, the leader will be the first one to have placed this bid.
+In a blind bid, if two people give the same price, the winner is usually the person who placed the bid first 1. 
+This is because the earlier bid is considered to have priority over the later one.
+If two bidders place the same bid, the leader will be the first one to have placed this bid.
 '''
 
 find_winner(bidding_record)
